@@ -1,0 +1,32 @@
+.about__container {
+	display: flex;
+	justify-content: center;
+}
+
+.about__image {
+}
+
+.about__detail {
+}
+
+.about__links {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+/* <section id="about">
+    <h2>About Me</h2>
+    <div class="about__container">
+        <div class="about__image">
+            A picture of me will go here.
+        </div>
+        <div class="about__detail">
+            This will hold some basic information about myself.
+        </div>
+    </div>
+    <ul class="about__links">
+        <li><a href="mailto:ctrlvaultdel51@gmail.com"/>Mail Icon</li>
+        <li><a href="https://github.com/CtrlVaultDel"/>GitHub Icon</li>
+        <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card">LinkedIn Icon</a></li>
+    </ul>
+</section> */

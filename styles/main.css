@@ -1,0 +1,9 @@
+@import "navbar.css";
+@import "about.css";
+@import "experience.css";
+@import "projects.css";
+@import "contact.css";
+
+h2 {
+	text-align: center;
+}
