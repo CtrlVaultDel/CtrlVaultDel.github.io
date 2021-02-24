@@ -1,0 +1,9 @@
+#technologies {
+	background-color: lightblue;
+}
+
+.technologies__container {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}

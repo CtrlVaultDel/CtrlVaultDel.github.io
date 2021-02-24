@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Core CSS -->
     <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b7851ab85e.js" crossorigin="anonymous"></script>
+
     <title>Ryan DeVault</title>
 </head>
 <body>
@@ -20,6 +26,8 @@
             </ul>
         </div>
     </nav>
+    
+    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <div class="about__container">
@@ -31,9 +39,9 @@
             </div>
         </div>
         <ul class="about__links">
-            <li><a href="mailto:ctrlvaultdel51@gmail.com"/>Mail Icon</li>
-            <li><a href="https://github.com/CtrlVaultDel"/>GitHub Icon</li>
-            <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card">LinkedIn Icon</a></li>
+            <li><a href="mailto:ctrlvaultdel51@gmail.com"/><i class="fas fa-envelope-square fa-2x"></i></li>
+            <li><a href="https://github.com/CtrlVaultDel"/><i class="fab fa-github-square fa-2x"></i></li>
+            <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card"><i class="fab fa-linkedin fa-2x"></i></a></li>
         </ul>
     </section>
     <section id="experience">
@@ -73,7 +81,7 @@
                     with our subcontractors and setting up the schedules for the houses.
                 </p>
             </div>
-            </div class="experience__item">
+            <div class="experience__item">
                 <h4>Nashville Software School</h4>
                 <p>
                     Rigorous full-time software development bootcamp concentrated on full stack
@@ -89,18 +97,20 @@
         </div>
 
         <!-- Button that will allow the user to download my resume -->
-        <button class="resume-button">Download Resume</button>
+        <div class="experience__button">
+            <button class="resume-button">Download Resume</button>
+        </div>
       
     </section>
     <section id="projects">
         <h2>Projects</h2>
         <div class="projects__container">
             <div class="projects__frontend">
-                <h3>Front-End Projects</h3>
+                <h3>Front-End</h3>
                 <div class="projects__list">
-                    <div>
-                        <h4><a href="https://github.com/CtrlVaultDel/nss-board-and-hoard">Board and Hoard</a></h4>
-                        <ul>
+                    <div class="projects__item">
+                        <h4 class="projects__item__name"><a href="https://github.com/CtrlVaultDel/nss-board-and-hoard">Board and Hoard</a></h4>
+                        <ul class="projects__item__details">
                             <li>Front-End Capstone</li>
                             <li>Week: 12</li>
                             <li>Tools: HTML, CSS, JS, React, Material UI, Sketchboard, dbdiagram.io</li>
@@ -109,9 +119,9 @@
                             <li>Objective: Learning React, React Hooks and implementing (Material UI) + revisiting front-end materials.</li>
                         </ul>
                     </div>
-                    <div>
-                        <h4><a href="https://github.com/nss-day-cohort-45/nutyshell-running-with-scissors-1">Nutshell</a></h4>
-                        <ul>
+                    <div class="projects__item">
+                        <h4 class="projects__item__name"><a href="https://github.com/nss-day-cohort-45/nutyshell-running-with-scissors-1">Nutshell</a></h4>
+                        <ul class="projects__item__details">
                             <li>Group project</li>
                             <li>Week: 9</li>
                             <li>Tools: HTML, CSS, JS, Sketchboard, dbdiagram.io</li>
@@ -120,9 +130,9 @@
                             <li>Objective: Learning CRUD functionality, persistent storage and ERD design.</li>
                         </ul>
                     </div>
-                    <div>
-                        <h4><a href="https://github.com/nss-day-cohort-45/holiday-road-frosty-snowpeople">Holiday Road</a></h4>
-                        <ul>
+                    <div class="projects__item">
+                        <h4 class="projects__item__name"><a href="https://github.com/nss-day-cohort-45/holiday-road-frosty-snowpeople">Holiday Road</a></h4>
+                        <ul class="projects__item__details">
                             <li>Group project</li>
                             <li>Week: 5</li>
                             <li>Tools: HTML, CSS, JS, Sketchboard</li>
@@ -142,13 +152,13 @@
     <section id="technologies">
         <h2>Technologies</h2>
         <ul class="technologies__container">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Material UI</li>
-            <li>Git</li>
-            <li>GitHub</li>
+            <li><img src="./images/HTML-logo.png" alt="HTML 5 Logo"></i></li>
+            <li><img src="./images/CSS-logo.png" alt="CSS 3 Logo"></li>
+            <li><img src="./images/JS-logo.png" alt="JavaScript Logo"></li>
+            <li><img src="./images/React-logo.png" alt="React Logo"></li>
+            <li><img src="./images/Material-ui-logo.png" alt="Material UI Logo"></li>
+            <li><img src="./images/Git-logo.png" alt="Git Logo"></i></li>
+            <li><i class="fab fa-github-square fa-6x"></i></li>
         </ul>
     </section>
     <section id="contact">

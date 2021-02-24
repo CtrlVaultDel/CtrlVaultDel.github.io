@@ -1,0 +1,25 @@
+#projects {
+	background-color: lightgray;
+}
+
+#projects h3 {
+	text-align: center;
+}
+
+.projects__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projects__item {
+	border: solid black 1px;
+	min-width: 200px;
+	max-width: 300px;
+	padding-left: 20px;
+	margin: 5px;
+}
+
+.projects__item__name {
+	text-align: center;
+}

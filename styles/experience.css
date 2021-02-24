@@ -1,0 +1,20 @@
+#experience {
+	background-color: lightblue;
+}
+
+.experience__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.experience__item {
+	border: solid black 1px;
+	max-width: 300px;
+	min-width: 200px;
+	margin: 5px;
+}
+
+.experience__button {
+	text-align: center;
+}
