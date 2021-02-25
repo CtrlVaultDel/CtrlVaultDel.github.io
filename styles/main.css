@@ -11,11 +11,25 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+html,
 body {
-	padding-top: 60px;
+	height: 100%;
 }
 
 h2 {
 	text-align: center;
 	margin-bottom: 10px;
+}
+
+#about,
+#experience,
+#projects,
+#technologies,
+#contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
