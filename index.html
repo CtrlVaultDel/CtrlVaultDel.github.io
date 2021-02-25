@@ -15,27 +15,29 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar__container">
+        <div class="navbar__container color-dark">
             <div class="navbar__header">Ryan DeVault</div>
             <ul class="navbar__links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="navbar__links__item"><a href="#about" class="navbar__anchor">About</a></li>
+                <li class="navbar__links__item"><a href="#experience" class="navbar__anchor">Experience</a></li>
+                <li class="navbar__links__item"><a href="#projects" class="navbar__anchor">Projects</a></li>
+                <li class="navbar__links__item"><a href="#technologies" class="navbar__anchor">Technologies</a></li>
+                <li class="navbar__links__item"><a href="#contact" class="navbar__anchor">Contact</a></li>
             </ul>
         </div>
     </nav>
     
     <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
+    <section id="about" class="color-light">
+        <h2 class="center-text">About Me</h2>
         <div class="about__container">
-            <div class="about__image">
-                A picture of me will go here.
-            </div>
+            <img class="about__image" src="./images/ProfilePic.jpg" alt="Ryan DeVault">
             <div class="about__detail">
-                This will hold some basic information about myself.
+                I am an apprentice at Nashville Software School learning full-stack web development. 
+                Prior to starting at NSS, I worked as an accountant but did not have a passion for what
+                I did day to day. The exact opposite is true about my journey towards becoming a web developer.
+                Each day has brought exciting challenges and growth opportunities as well as friendships 
+                with others of similar backgrounds and experiences. 
             </div>
         </div>
         <ul class="about__links">
@@ -44,8 +46,8 @@
             <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card"><i class="fab fa-linkedin fa-2x"></i></a></li>
         </ul>
     </section>
-    <section id="experience">
-        <h2>Experience</h2>
+    <section id="experience" class="color-medium">
+        <h2 class="center-text">Experience</h2>
         <div class="experience__container">
             <div class="experience__item">
                 <h4>Corporate Accountant at Marquee Dental Partners</h4>
@@ -103,10 +105,10 @@
       
     </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <h2 class="center-text">Projects</h2>
         <div class="projects__container">
             <div class="projects__frontend">
-                <h3>Front-End</h3>
+                <h3 class="center-text">Front-End</h3>
                 <div class="projects__list">
                     <div class="projects__item">
                         <h4 class="projects__item__name"><a href="https://github.com/CtrlVaultDel/nss-board-and-hoard">Board and Hoard</a></h4>
@@ -150,7 +152,7 @@
         </div>
     </section>
     <section id="technologies">
-        <h2>Technologies</h2>
+        <h2 class="center-text">Technologies</h2>
         <ul class="technologies__container">
             <li><img src="./images/HTML-logo.png" alt="HTML 5 Logo"></i></li>
             <li><img src="./images/CSS-logo.png" alt="CSS 3 Logo"></li>
@@ -162,7 +164,7 @@
         </ul>
     </section>
     <section id="contact">
-        <h2>Let's Chat!</h2>
+        <h2 class="center-text">Let's Chat!</h2>
         <div class="contact__container">
             <!-- Location Information -->
             <div class="contact__item"><img />Location: Murfreesboro, Tennessee</div>

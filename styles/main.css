@@ -15,12 +15,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-html,
-body {
-	height: 100%;
-}
-
-h2 {
+.center-text {
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -32,4 +27,20 @@ h2 {
 #contact {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.color-light {
+	background-color: #e4eddb;
+}
+
+.color-medium {
+	background-color: #307672;
+}
+
+.color-dark {
+	background-color: #144d53;
+}
+
+.color-heavy {
+	background-color: #1a3c40;
 }

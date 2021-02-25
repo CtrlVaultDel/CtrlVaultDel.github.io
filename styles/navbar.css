@@ -8,20 +8,33 @@
 	flex-wrap: wrap;
 	padding: 15px;
 	width: 100%;
-	background: gray;
+	color: white;
 }
 
 .navbar__header {
-	font-weight: 900;
+	font-weight: 400;
+	font-size: large;
 	margin: auto;
 }
 
 .navbar__links {
 	display: flex;
 	margin: auto;
+	flex-wrap: wrap;
 }
 
-.navbar__links li {
+.navbar__links__item {
 	list-style-type: none;
 	margin: 0 10px;
+}
+
+.navbar__anchor:link,
+.navbar__anchor:visited,
+.navbar__anchor:active {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar__anchor:hover {
+	text-decoration: underline;
 }

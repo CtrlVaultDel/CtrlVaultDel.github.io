@@ -1,18 +1,29 @@
-#about {
-	background: lightgray;
-}
-
 .about__container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.about__container img {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	border: solid black 1px;
+}
+
+.about__detail {
+	max-width: 300px;
+	margin: auto 0;
 }
 
 .about__links {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
+	margin-top: 10px;
 }
 
 .about__links a {
 	color: black;
+	margin: 0 1px;
 }
