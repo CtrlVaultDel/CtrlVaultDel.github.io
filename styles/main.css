@@ -11,12 +11,16 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 h2 {
 	font-size: 40px;
 }
 
-html {
-	scroll-behavior: smooth;
+p {
+	line-height: 1.5;
 }
 
 .center-text {

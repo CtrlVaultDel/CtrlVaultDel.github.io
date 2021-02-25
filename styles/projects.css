@@ -1,3 +1,7 @@
+.projects__container h3 {
+	font-size: 20px;
+}
+
 .projects__list {
 	display: flex;
 	flex-wrap: wrap;
@@ -34,5 +38,5 @@
 .projects__card__name {
 	text-align: center;
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 25px;
 }
