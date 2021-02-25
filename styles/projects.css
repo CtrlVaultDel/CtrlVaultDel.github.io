@@ -1,0 +1,42 @@
+.projects__container h3 {
+	font-size: 20px;
+}
+
+.projects__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projects__card {
+	border: solid black 1px;
+	max-width: 300px;
+	min-width: 200px;
+	margin: 10px;
+	border-radius: 20px;
+	padding: 15px 15px 15px 20px;
+	background-color: #307672;
+}
+
+.projects__card a:link,
+.projects__card a:visited,
+.projects__card a:active {
+	color: white;
+	text-decoration: none;
+}
+
+.projects__card a:hover {
+	text-decoration: underline;
+	color: rgb(196, 195, 195);
+}
+
+.projects__card:hover {
+	box-shadow: 0px 4px 12px #000000;
+	top: -4px;
+}
+
+.projects__card__name {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 25px;
+}

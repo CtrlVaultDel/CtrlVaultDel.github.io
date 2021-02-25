@@ -1,0 +1,54 @@
+@import "navbar.css";
+@import "about.css";
+@import "experience.css";
+@import "projects.css";
+@import "technologies.css";
+@import "contact.css";
+@import "copyright.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.center-text {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#about,
+#experience,
+#projects,
+#technologies,
+#contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.color-light {
+	background-color: #e4eddb;
+}
+
+.color-medium {
+	background-color: #307672;
+}
+
+.color-dark {
+	background-color: #144d53;
+}
+
+.color-heavy {
+	background-color: #1a3c40;
+}

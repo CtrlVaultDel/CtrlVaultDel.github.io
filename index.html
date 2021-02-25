@@ -4,42 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b7851ab85e.js" crossorigin="anonymous"></script>
+
     <title>Ryan DeVault</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-header">Ryan DeVault</div>
-            <ul class="navbar-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#technologies">Technologies</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <div class="navbar__container color-dark">
+            <div class="navbar__header">Ryan DeVault</div>
+            <ul class="navbar__links">
+                <li class="navbar__links__item"><a href="#about" class="navbar__anchor">About</a></li>
+                <li class="navbar__links__item"><a href="#experience" class="navbar__anchor">Experience</a></li>
+                <li class="navbar__links__item"><a href="#projects" class="navbar__anchor">Projects</a></li>
+                <li class="navbar__links__item"><a href="#technologies" class="navbar__anchor">Technologies</a></li>
+                <li class="navbar__links__item"><a href="#contact" class="navbar__anchor">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-container">
-            <div class="about-image">
-                A picture of me will go here.
-            </div>
-            <div class="about-detail">
-                This will hold some basic information about myself.
+    
+    <!-- About Section -->
+    <section id="about" class="color-light">
+        <h2 class="center-text">About Me</h2>
+        <div class="about__container">
+            <img class="about__image" src="./images/ProfilePic.jpg" alt="Picture of Ryan DeVault">
+            <div class="about__detail">
+                <div class="about__detail__name">
+                    Hello, my name is <strong>Ryan DeVault</strong>
+                </div>
+                <div class="about__detail__text">
+                    <p>
+                        I am an apprentice at Nashville Software School learning full-stack web development. 
+                        Prior to starting at NSS, I worked as an accountant but did not have a passion for what
+                        I did day to day. The exact opposite is true about my journey towards becoming a web developer.
+                        Each day has brought exciting challenges and growth opportunities as well as friendships 
+                        with others of similar backgrounds and experiences. 
+                    </p>
+                </div> 
             </div>
         </div>
-        <ul class="about-links">
-            <li><a href="mailto:ctrlvaultdel51@gmail.com"/>Mail Icon</li>
-            <li><a href="https://github.com/CtrlVaultDel"/>GitHub Icon</li>
-            <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card">LinkedIn Icon</a></li>
+        <ul class="about__links">
+            <li><a href="mailto:ctrlvaultdel51@gmail.com"/><i class="fas fa-envelope-square fa-2x" target="_blank"></i></li>
+            <li><a href="https://github.com/CtrlVaultDel"/><i class="fab fa-github-square fa-2x" target="_blank"></i></li>
+            <li><a href="https://www.linkedin.com/in/ryan-devault?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
         </ul>
     </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-container">
-            <div class="experience-item">
+    <section id="experience" class="color-medium">
+        <h2 class="center-text">Experience</h2>
+        <div class="experience__container">
+            <div class="experience__card">
+                <h4>Nashville Software School</h4>
+                <p>
+                    Rigorous full-time software development bootcamp concentrated on full stack
+                    development essentials and problem solving. Front-end development focused on
+                    HTML, CSS, JavaScript & React. Back-end development was centered around jQuery, C#, .NET and SQL.
+                </p>
+            </div>
+            <div class="experience__card">
                 <h4>Corporate Accountant at Marquee Dental Partners</h4>
                 <p>
                     My role at Marquee Dental Partners was to assist the controller 
@@ -51,7 +76,7 @@
                     and valid.
                 </p>
             </div>
-            <div class="experience-item">
+            <div class="experience__card">
                 <h4>Staff Accountant at Edmondson, Betzler & Dame, PLLC.</h4>
                 <p>
                     At Edmondson, Betzler & Dame I worked as both a tax and audit accountant.
@@ -63,7 +88,7 @@
                     the supervision of the partners.
                 </p>
             </div>
-            <div class="experience-item">
+            <div class="experience__card">
                 <h4>Supervisor Assistant at DeVault Homes</h4>
                 <p>
                     When I graduated High School in 2009, I began working with my father in his 
@@ -73,15 +98,7 @@
                     with our subcontractors and setting up the schedules for the houses.
                 </p>
             </div>
-            </div class="experience-item">
-                <h4>Nashville Software School</h4>
-                <p>
-                    Rigorous full-time software development bootcamp concentrated on full stack
-                    development essentials and problem solving. Front-end development focused on
-                    HTML, CSS, JavaScript & React. Back-end development was centered around jQuery, C#, .NET and SQL.
-                </p>
-            </div>
-            <div class="experience-item">
+            <div class="experience__card">
                 <h4>Middle Tennessee State University</h4>
                 <p>Master's Degree - Accountancy (2016)</p>
                 <p>Bachelor's Degree - Business Administration (2013)</p>
@@ -89,47 +106,51 @@
         </div>
 
         <!-- Button that will allow the user to download my resume -->
-        <button class="resume-button">Download Resume</button>
+        <div class="experience__resume">
+            <a href="./images/Resume V1 - DeVault.pdf" target="_blank">Download Resume</a>
+        </div>
       
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
+    <section id="projects" class="color-light">
+        <h2 class="center-text">Projects</h2>
         <div class="projects__container">
             <div class="projects__frontend">
-                <h3>Front-End Projects</h3>
+                <h3 class="center-text">Front-End</h3>
                 <div class="projects__list">
-                    <div>
-                        <h4><a href="https://github.com/CtrlVaultDel/nss-board-and-hoard">Board and Hoard</a></h4>
-                        <ul>
-                            <li>Front-End Capstone</li>
-                            <li>Week: 12</li>
-                            <li>Tools: HTML, CSS, JS, React, Material UI, Sketchboard, dbdiagram.io</li>
-                            <li>Synopsis: Single page application that provides search functionality for board and card games along with a library for each user.</li>
-                            <li>Responsibilities: News section and laying out the wireframe and ERD with teammates.</li>
-                            <li>Objective: Learning React, React Hooks and implementing (Material UI) + revisiting front-end materials.</li>
-                        </ul>
+                    <div class="projects__card">
+                        <h4 class="projects__card__name"><a href="https://github.com/CtrlVaultDel/nss-board-and-hoard" target="_blank">Board and Hoard</a></h4>
+                        <div class="projects__card__details">
+                            <p>
+                                Front-end capstone - week twelve. I utilized HTML, CSS, JS, React, Material UI, 
+                                Sketchboard and dbdiagram.io while working on this project. Board and Hoard is a single page
+                                application that provides search functionality for board and card games along with
+                                a library for each user. My objectives during this project included learning React (hooks in particular),
+                                proper implementation of Material UI and revisiting front-end materials.
+                        </div>
                     </div>
-                    <div>
-                        <h4><a href="https://github.com/nss-day-cohort-45/nutyshell-running-with-scissors-1">Nutshell</a></h4>
-                        <ul>
-                            <li>Group project</li>
-                            <li>Week: 9</li>
-                            <li>Tools: HTML, CSS, JS, Sketchboard, dbdiagram.io</li>
-                            <li>Synopsis: Single page social network application which includes News, Events, Chat and a To Do List.</li>
-                            <li>Responsibilities: News section and laying out the wireframe and ERD with teammates.</li>
-                            <li>Objective: Learning CRUD functionality, persistent storage and ERD design.</li>
-                        </ul>
+                    <div class="projects__card">
+                        <h4 class="projects__card__name"><a href="https://github.com/nss-day-cohort-45/nutyshell-running-with-scissors-1" target="_blank">Nutshell</a></h4>
+                        <div class="projects__card__details">
+                            <p>
+                                Group project - week nine. Our group used HTML, CSS, JS, Sketchboard and dbdiagram.
+                                Nutshell is a single page social network application which includes news, events,
+                                chat and a to do list. My responsibilities and contributions include the news section, wireframing
+                                and ERD design. The purpose of this project was for us to implement what we had learned so far with regards to
+                                handling user events, implementing CRUD operations, relational data and ERDs.
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <h4><a href="https://github.com/nss-day-cohort-45/holiday-road-frosty-snowpeople">Holiday Road</a></h4>
-                        <ul>
-                            <li>Group project</li>
-                            <li>Week: 5</li>
-                            <li>Tools: HTML, CSS, JS, Sketchboard</li>
-                            <li>Synopsis: Single page travel application that allows users to build itineraries for their trips to national parks.</li>
-                            <li>Responsibilities: Wireframing with teammates, sole code reviewer for team, weather and itinerary section.</li>
-                            <li>Objective: Working with external APIs, decoupling modules and event listeners.</li>
-                        </ul>
+                    <div class="projects__card">
+                        <h4 class="projects__card__name"><a href="https://github.com/nss-day-cohort-45/holiday-road-frosty-snowpeople" target="_blank">Holiday Road</a></h4>
+                        <div class="projects__card__details">
+                            <p>
+                                Group project - week five. Our group utilized HTML, CSS, JS and Sketchboard. Holiday Road is a
+                                single page travel application that allows users to build itineraries for their trips to national parks.
+                                My responsibilities and contributions include wireframing with teammates, acting as the team code reviewer,
+                                the weather section and the itinerary section. Our learning objectives included implementing event listeners
+                                properly, modularizing our code, working with external APIs, and performing our first full Sprint as part of the Scrum Framework.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,32 +160,32 @@
             </div> -->
         </div>
     </section>
-    <section id="technologies">
-        <h2>Technologies</h2>
-        <ul class="technologies-container">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Material UI</li>
-            <li>Git</li>
-            <li>GitHub</li>
+    <section id="technologies" class="color-medium">
+        <h2 class="center-text">Technologies</h2>
+        <ul class="technologies__container">
+            <li><img src="./images/HTML-logo.png" alt="HTML 5 Logo"></i></li>
+            <li><img src="./images/CSS-logo.png" alt="CSS 3 Logo"></li>
+            <li><img src="./images/JS-logo.png" alt="JavaScript Logo"></li>
+            <li><img src="./images/React-logo.png" alt="React Logo"></li>
+            <li><img src="./images/Material-ui-logo.png" alt="Material UI Logo"></li>
+            <li><img src="./images/Git-logo.png" alt="Git Logo"></i></li>
+            <li><i class="fab fa-github-square fa-6x"></i></li>
         </ul>
     </section>
-    <section id="contact">
-        <h2>Let's Chat!</h2>
-        <div class="contact-container">
+    <section id="contact" class="color-light">
+        <h2 class="center-text">Let's Chat!</h2>
+        <div class="contact__container">
             <!-- Location Information -->
-            <div class="contact-item"><img />Location: Murfreesboro, Tennessee</div>
+            <div class="contact__item"><img />Location: Murfreesboro, Tennessee</div>
 
             <!-- Email Information -->
-            <div class="contact-item"><img />Email: ctrlvaultdel51@gmail.com</div>
+            <div class="contact__item"><img />Email: ctrlvaultdel51@gmail.com</div>
 
             <!-- LinkedIn Information -->
-            <div class="contact-item">LinkedIn: Ryan DeVault</div>
+            <div class="contact__item">LinkedIn: Ryan DeVault</div>
 
             <!-- GitHub Information -->
-            <div class="contact-item">GitHub: CtrlVaultDel</div>
+            <div class="contact__item">GitHub: CtrlVaultDel</div>
         </div>
     </section>
     <footer>&#169 2021 Ryan DeVault</footer>
