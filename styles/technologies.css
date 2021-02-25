@@ -1,11 +1,7 @@
-#technologies {
-	background-color: lightblue;
-}
-
 .technologies__container {
 	display: flex;
 	list-style-type: none;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	margin: 0 15px;
 }
