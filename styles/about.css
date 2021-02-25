@@ -17,8 +17,14 @@
 	min-width: 300px;
 	margin-top: 15px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.about__detail__name {
+	font-size: 23px;
+	margin-bottom: 10px;
 }
 
 .about__links {

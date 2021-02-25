@@ -23,6 +23,7 @@
 
 .projects__card a:hover {
 	text-decoration: underline;
+	color: rgb(196, 195, 195);
 }
 
 .projects__card:hover {

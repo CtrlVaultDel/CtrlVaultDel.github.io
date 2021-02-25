@@ -29,4 +29,18 @@
 
 .experience__resume {
 	text-align: center;
+	margin-top: 25px;
+}
+
+.experience__resume a:link,
+.experience__resume a:visited,
+.experience__resume a:active {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.experience__resume a:hover {
+	color: rgb(196, 195, 195);
+	text-decoration: underline;
 }
