@@ -18,6 +18,10 @@
 	background-color: #307672;
 }
 
+.projects__card p {
+	color: rgb(243, 241, 241);
+}
+
 .projects__card a:link,
 .projects__card a:visited,
 .projects__card a:active {
